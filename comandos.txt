@@ -1,0 +1,12 @@
+Una vez obtenida la reverse shell ejecutar:
+
+script /dev/null -c bash
+[ctrl^z]
+stty raw -echo
+fg 
+[ENTER]
+reset
+(aqui ya puedes parar si quieres)
+xterm
+export TERM=xterm
+export SHELL=bash
