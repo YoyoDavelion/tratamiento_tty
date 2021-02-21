@@ -19,3 +19,10 @@ reset
 xterm
 export TERM=xterm
 export SHELL=bash
+
+
+VER COLUMNAS Y FILAS DE LA TTY:
+stty -a 
+
+Cambiar las filas y columnas:
+stty rows x columns x
